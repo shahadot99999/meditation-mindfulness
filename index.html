@@ -126,10 +126,78 @@
       </div>
     </div>
     <!-- E-Learning Platform end -->
+
+    <!-- Blog Platform start -->
+    
+    <section>
+      <div class="container mx-auto p-6">
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-8">Meditation Blogs</h1>
+        
+        <!-- Blog Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Blog Card 1 -->
+          <div class="card bg-base-100 shadow-md">
+            <figure>
+              <img src="img/08.jpg" alt="Meditation Tips" class="w-full h-48 object-cover" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">5 Tips for Daily Meditation</h2>
+              <p class="text-gray-600">Discover how to make meditation a habit and improve your mental clarity and focus every day.</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary" onclick="showModal(1)">Read More</button>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Blog Card 2 -->
+          <div class="card bg-base-100 shadow-md">
+            <figure>
+              <img src="img/09.jpg" alt="Breathing Exercises" class="w-full h-48 object-cover" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Breathing Techniques for Beginners</h2>
+              <p class="text-gray-600">Learn the art of mindful breathing and enhance your meditation sessions.</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary" onclick="showModal(2)">Read More</button>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Blog Card 3 -->
+          <div class="card bg-base-100 shadow-md">
+            <figure>
+              <img src="img/10.jpg" alt="Mindfulness Practices" class="w-full h-48 object-cover" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Mindfulness Practices for Stress Relief</h2>
+              <p class="text-gray-600">Reduce stress and anxiety through simple yet effective mindfulness techniques.</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary" onclick="showModal(3)">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Modal -->
+      <div id="blogModal" class="modal">
+        <div class="modal-box">
+          <h2 id="modalTitle" class="text-2xl font-bold mb-4">Blog Title</h2>
+          <p id="modalContent" class="text-gray-600 mb-4">
+            Blog content will be dynamically inserted here based on the selected blog.
+          </p>
+          <div class="modal-action">
+            <button class="btn btn-primary" onclick="closeModal()">Close</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog Platform end -->
    
    
      <script src="js/enrollInCourse.js"></script>
      <script src="js/quotegenerator.js"></script>
+     <script src="js/blogPlatform.js"></script>
 
 </body>
 </html>
