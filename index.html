@@ -198,7 +198,7 @@
 
     <section>
       <div class="max-w-2xl mx-auto">
-        <h1 class="text-4xl font-bold text-center text-green-800">Meditation Interactive Storybook</h1>
+        <h1 class="text-xl font-bold text-center text-green-800">Meditation  Storybook</h1>
         <div id="storybook" class="mt-8 bg-white shadow-md rounded-lg p-6">
             <h2 id="step-title" class="text-2xl font-semibold text-blue-800">Welcome to Your Meditation Journey</h2>
             <p id="step-content" class="mt-4 text-gray-700">Take a moment to relax. Click "Next" to begin.</p>
@@ -211,12 +211,41 @@
     </div>
     </section>
     <!-- Interactive Storybook end -->
+
+
+    <!-- Stock Tracker start -->
+    <section>
+      <div class="max-w-2xl mx-auto bg-white p-6 shadow-md rounded-lg mt-4">
+        <h1 class="text-2xl font-bold text-center mb-4">Meditation Stock Tracker</h1>
+    
+        <form id="addItemForm" class="flex flex-col gap-4">
+          <input type="text" id="itemName" class="input input-bordered w-full" placeholder="Item Name" required>
+          <input type="number" id="itemQuantity" class="input input-bordered w-full" placeholder="Quantity" required>
+          <button type="submit" class="btn btn-primary w-full">Add Item</button>
+        </form>
+    
+        <table class="table table-zebra w-full mt-6">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Quantity</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="stockTable">
+            <!-- Stock items will be dynamically added here -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- Stock Tracker End -->
    
    
      <script src="js/enrollInCourse.js"></script>
      <script src="js/quotegenerator.js"></script>
      <script src="js/blogPlatform.js"></script>
      <script src="js/storyBook.js"></script>
+     <script src="js/stockTracker.js"></script>
 
 </body>
 </html>
