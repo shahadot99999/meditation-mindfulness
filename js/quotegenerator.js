@@ -10,3 +10,8 @@ const quotes = [
     const randomIndex = Math.floor(Math.random() * quotes.length);
     document.getElementById("quote").textContent = quotes[randomIndex];
   }
+
+
+
+
+
