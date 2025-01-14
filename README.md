@@ -19,6 +19,6 @@ Technologies:
 Frontend: Daisyui, Tailwind CSS, JavaScript (DOM manipulation), html5, css3
 
 
-live link: 
+live link: https://meditation-mindfulness.netlify.app/
 
 github  link:https://github.com/shahadot99999/meditation-mindfulness
