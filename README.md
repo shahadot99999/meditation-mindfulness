@@ -25,9 +25,11 @@ Story Book Integration: Immersive storytelling experiences with interactive elem
 Portfolio Section: Showcase user achievements and progress in their meditation journey.
 Technologies:
 
-Frontend: Daisyui, Tailwind CSS, JavaScript (DOM manipulation), html5, css3
+
 
 
 live link: https://meditation-mindfulness.netlify.app/
 
 github  link:https://github.com/shahadot99999/meditation-mindfulness
+
+Frontend: Daisyui, Tailwind CSS, JavaScript (DOM manipulation), html5, css3
