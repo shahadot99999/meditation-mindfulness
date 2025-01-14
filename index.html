@@ -274,6 +274,46 @@
     </section>
 
     <!-- Blog Platform end -->
+
+    <!-- Portfolio Generator start -->
+     <section>
+      <!-- Main Content -->
+      <main class="container mx-auto p-4">
+        <!-- Input Section -->
+        <section class="mb-6">
+          <div class="card bg-white shadow-lg p-4">
+            <h2 class="text-xl font-semibold mb-2">Add Your Meditation Details</h2>
+            <form id="portfolioForm">
+              <div class="mb-4">
+                <label class="label">
+                  <span class="label-text">Meditation Name</span>
+                </label>
+                <input type="text" id="meditationName" class="input input-bordered w-full" placeholder="e.g., Morning Yoga">
+              </div>
+              <div class="mb-4">
+                <label class="label">
+                  <span class="label-text">Description</span>
+                </label>
+                <textarea id="description" class="textarea textarea-bordered w-full"
+                  placeholder="e.g., A calming start to your day..."></textarea>
+              </div>
+             
+              <button type="button" id="addItem" class="btn btn-primary w-full mb-2">Add to Portfolio</button>
+             
+            </form>
+          </div>
+        </section>
+      
+        <!-- Portfolio Section -->
+        <section>
+          <h2 class="text-xl font-semibold mb-4">Your Meditation Portfolio</h2>
+          <div id="portfolio" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Dynamic Content -->
+          </div>
+        </section>
+      </main>
+     </section>
+    <!-- Portfolio Generator end -->
    
    
      <script src="js/enrollInCourse.js"></script>
@@ -282,6 +322,7 @@
      <script src="js/storyBook.js"></script>
      <script src="js/stockTracker.js"></script>
      <script src="js/blogDetails.js"></script>
+     <script src="js/portfolioGenerator.js"></script>
 
 </body>
 </html>
